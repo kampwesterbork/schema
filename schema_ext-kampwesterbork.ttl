@@ -1,0 +1,13 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix kw: <https://data.kampwesterbork.nl/schema/> .
+
+### This file defines and extension of schema.org for indische erfgoed.
+
+## More specific classes of schema:CreativeWork
+
+kw:Ervaring a rdfs:Class ;
+        rdfs:label "Ervaring"@nl ;
+        rdfs:subClassOf schema:Event ;
+        rdfs:comment "Een ervaring van iemand in Kamp Westerbork."@nl .
