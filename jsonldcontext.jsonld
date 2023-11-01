@@ -170,6 +170,9 @@
         "toLocation": {
             "@id": "schema:toLocation"
         },
+        "tussenvoegsel": {
+            "@id": "kw:tussenvoegsel"
+        },    
         "url": {
             "@id": "schema:url"
         }
