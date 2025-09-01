@@ -7,10 +7,10 @@
 
 ## More specific classes of schema:CreativeWork
 
-kw:Ervaring a rdfs:Class ;
-        rdfs:label "Ervaring"@nl ;
-        rdfs:subClassOf schema:Event ;
-        rdfs:comment "Een ervaring van iemand in Kamp Westerbork."@nl .
+kw:Story a rdfs:Class ;
+        rdfs:label "Verhaal"@nl ;
+        rdfs:subClassOf schema:CreativeWork ;
+        rdfs:comment "Een verhaal over een persoon, plaats, thema of object in Kamp Westerbork."@nl .
 
 kw:tussenvoegsel a rdf:Property ;
         rdfs:label "tussenvoegsel"@nl .
